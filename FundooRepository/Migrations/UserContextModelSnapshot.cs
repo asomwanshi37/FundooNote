@@ -18,6 +18,47 @@ namespace FundooRepository.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("FundooModel.NotesModel", b =>
+                {
+                    b.Property<int>("NotesId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Color")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Is_Archive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Is_Pin")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Is_Trash")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Notes")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Remainder")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("NotesId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Notes");
+                });
+
             modelBuilder.Entity("FundooModel.RegisterModel", b =>
                 {
                     b.Property<int>("UserId")
@@ -40,6 +81,15 @@ namespace FundooRepository.Migrations
                     b.HasKey("UserId");
 
                     b.ToTable("User");
+                });
+
+            modelBuilder.Entity("FundooModel.NotesModel", b =>
+                {
+                    b.HasOne("FundooModel.RegisterModel", "RegisterModel")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

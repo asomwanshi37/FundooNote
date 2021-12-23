@@ -80,3 +80,10 @@ C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooManager\obj\Debug\netcor
 C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooManager\obj\Debug\netcoreapp3.1\FundooManager.dll
 C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooManager\obj\Debug\netcoreapp3.1\FundooManager.pdb
 C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooManager\obj\Debug\netcoreapp3.1\FundooManager.genruntimeconfig.cache
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooManager\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooManager\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooManager\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooManager\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooManager\bin\Debug\netcoreapp3.1\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooManager\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooManager\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll

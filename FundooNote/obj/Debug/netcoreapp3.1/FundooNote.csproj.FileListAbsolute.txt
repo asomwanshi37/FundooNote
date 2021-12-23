@@ -112,3 +112,9 @@ C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooNote\obj\Debug\netcoreap
 C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooNote\obj\Debug\netcoreapp3.1\FundooNote.dll
 C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooNote\obj\Debug\netcoreapp3.1\FundooNote.pdb
 C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooNote\obj\Debug\netcoreapp3.1\FundooNote.genruntimeconfig.cache
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll

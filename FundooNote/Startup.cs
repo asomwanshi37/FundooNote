@@ -33,6 +33,8 @@ namespace FundooNote
                         options => options.UseSqlServer(this.Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IUserManager, UserManager>();
+            services.AddTransient<INotesManager, NotesManager>();
+            services.AddTransient<INotesRepository, NotesRepository>();
             services.AddSession();
             services.AddCors(options => options.AddPolicy(name: "CorsPolicyAllHosts", builder =>
             {
