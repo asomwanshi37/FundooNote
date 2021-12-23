@@ -13,7 +13,7 @@ namespace FundooNote.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserManager userManager;
-        public IConfiguration configuration { get; }
+        private readonly IConfiguration configuration;
         private readonly ILogger<UserController> logger;
         public UserController(IUserManager userManager, IConfiguration configuration, ILogger<UserController> logger)
         {
@@ -62,14 +62,14 @@ namespace FundooNote.Controllers
                 if (result != null)
                 {
                     this.logger.LogInformation(loginModel.Email + " logged in successfully and the token generated is " + token);
-                    HttpContext.Session.SetString("UserEmail", loginModel.Email + " " +loginModel.Password);
+                   // HttpContext.Session.SetString("UserEmail", loginModel.Email + " " +loginModel.Password);
                     ConnectionMultiplexer multiplexer = ConnectionMultiplexer.Connect(this.configuration["RedisServer"]);
                     IDatabase database = multiplexer.GetDatabase();
                     int UserId = Convert.ToInt32(database.StringGet("UserID"));
                     string firstName = database.StringGet("FirstName");
                     string lastName = database.StringGet("LastName");
                     
-                    return this.Ok(new ResponseModel<string> { Status = true, Message = "successful Login", Data =result + "Token:" + token });
+                    return this.Ok(new { Status = true, Message = "successful Login", Data = result , Token =token });
                 }
                 else
                 {

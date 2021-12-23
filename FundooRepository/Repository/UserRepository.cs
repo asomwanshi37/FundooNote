@@ -64,7 +64,7 @@ namespace FundooRepository.Repository
                     database.StringSet(key: "Email", exist.Email);
                     database.StringSet(key: "FirstName", exist.FirstName);
                     database.StringSet(key: "LastName", exist.LastName);
-                    //return loginData;
+                    return exist;
                   
 
                 }
