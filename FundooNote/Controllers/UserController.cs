@@ -48,6 +48,7 @@ namespace FundooNote.Controllers
                 return this.NotFound(new ResponseModel<string>() { Status = false, Message = ex.Message });
             }
         }
+
         [HttpPost]
         [Route("api/login")]
         public async Task<IActionResult> Login([FromBody] LoginModel loginModel)
