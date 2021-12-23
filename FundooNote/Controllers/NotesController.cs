@@ -38,6 +38,7 @@ namespace FundooNote.Controllers
                 return this.NotFound(new ResponseModel<NotesModel>() { Status = false, Message = ex.Message });
             }
         }
+
         [HttpPut]
         [Route("api/UpdateNote")]
         public async Task<IActionResult> UpdateTitleOrNote([FromBody] NotesModel notesModel)
