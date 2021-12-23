@@ -335,7 +335,7 @@ namespace FundooNote.Controllers
                 NotesModel data = await this.notesManager.AddImage(notesId, image);
                 if (data != null )
                 {
-                    return this.Ok(new ResponseModel<NotesModel>() { Status = true, Message = "Image added",Data = data });
+                   return this.Ok(new ResponseModel<NotesModel>() { Status = true, Message = "Image added",Data = data });
                 }
 
                 return this.BadRequest(new ResponseModel<string>() { Status = false, Message = "Image Not added" });
