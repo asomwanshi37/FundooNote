@@ -24,7 +24,6 @@ namespace FundooRepository.Repository
             this.UserContext = userContext;
             this.Configuration = configuration;
         }
-
         public async Task<NotesModel> AddNotes(NotesModel notesModel)
         {
             try
@@ -251,7 +250,6 @@ namespace FundooRepository.Repository
                 throw new Exception(ex.Message);
             }
         }
-        
         public async Task<NotesModel> SetRemainder(int notesId, string remainder)
         {
             try
