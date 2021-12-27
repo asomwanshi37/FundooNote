@@ -57,7 +57,7 @@ namespace FundooRepository.Repository
         {
             try
             {
-                bool verifynulldata = (notesModel.Title == null && notesModel.Notes == null && notesModel.Color == null &&notesModel.Reminder == null);
+                bool verifynulldata = (notesModel.Title == null && notesModel.Notes == null && notesModel.Color == null && notesModel.Reminder == null);
                 if (!verifynulldata)
                 {
                     await this.userContext.Notes.AddAsync(notesModel);
@@ -66,7 +66,6 @@ namespace FundooRepository.Repository
                 }
 
                 return null;
-
             }
             catch (ArgumentNullException ex)
             {
@@ -124,7 +123,6 @@ namespace FundooRepository.Repository
                 }
 
                 return null;
-
             }
             catch (ArgumentNullException ex)
             {
@@ -278,7 +276,6 @@ namespace FundooRepository.Repository
             {
                 throw new Exception(ex.Message);
             }
-
         }
 
         /// <summary>
