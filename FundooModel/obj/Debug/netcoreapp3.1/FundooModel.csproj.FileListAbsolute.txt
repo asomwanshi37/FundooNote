@@ -1,0 +1,14 @@
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\bin\Debug\netcoreapp3.1\FundooModel.exe
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\bin\Debug\netcoreapp3.1\FundooModel.deps.json
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\bin\Debug\netcoreapp3.1\FundooModel.runtimeconfig.json
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\bin\Debug\netcoreapp3.1\FundooModel.runtimeconfig.dev.json
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\bin\Debug\netcoreapp3.1\FundooModel.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\bin\Debug\netcoreapp3.1\FundooModel.pdb
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\obj\Debug\netcoreapp3.1\FundooModel.csproj.AssemblyReference.cache
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\obj\Debug\netcoreapp3.1\FundooModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\obj\Debug\netcoreapp3.1\FundooModel.AssemblyInfoInputs.cache
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\obj\Debug\netcoreapp3.1\FundooModel.AssemblyInfo.cs
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\obj\Debug\netcoreapp3.1\FundooModel.csproj.CoreCompileInputs.cache
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\obj\Debug\netcoreapp3.1\FundooModel.dll
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\obj\Debug\netcoreapp3.1\FundooModel.pdb
+C:\Users\Akshay Somwanshi\source\repos\FundooNote\FundooModel\obj\Debug\netcoreapp3.1\FundooModel.genruntimeconfig.cache
