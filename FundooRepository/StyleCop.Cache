@@ -169,65 +169,6 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="CollaboratorRepository.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2021-12-26 21:30:06.000</styleCop>
-      <settingsFile>2021-12-26 21:30:05.977</settingsFile>
-      <sourceFile>2021-12-27 03:44:01.537</sourceFile>
-      <parser>2021-12-26 21:30:06.000</parser>
-      <StyleCop.CSharp.DocumentationRules>2021-12-26 21:30:06.000</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2096444707</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2021-12-26 21:30:06.000</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2021-12-26 21:30:06.000</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2021-12-26 21:30:06.000</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2021-12-26 21:30:06.000</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2021-12-26 21:30:06.000</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2021-12-26 21:30:06.000</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
-        <context>Adjacent elements must be separated by a blank line.</context>
-        <line>33</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementDocumentationHeaderMustBePrecededByBlankLine" ruleCheckId="SA1514">
-        <context>A documentation header must be preceded by a blank line or must be the first item in its scope.</context>
-        <line>29</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
-        <context>The documentation text within the exception tag must not be empty.</context>
-        <line>44</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
-        <context>A closing curly bracket must not be preceded by a blank line.</context>
-        <line>52</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
-        <context>The documentation text within the exception tag must not be empty.</context>
-        <line>65</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
-        <context>A closing curly bracket must not be preceded by a blank line.</context>
-        <line>79</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
-        <context>The documentation text within the exception tag must not be empty.</context>
-        <line>92</line>
-        <warning>False</warning>
-      </violation>
-    </violations>
-  </sourcecode>
   <sourcecode name="ILabelRepository.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2021-12-26 21:30:06.000</styleCop>
@@ -396,6 +337,60 @@
       </violation>
     </violations>
   </sourcecode>
+  <sourcecode name="CollaboratorRepository.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021-12-26 21:30:06.000</styleCop>
+      <settingsFile>2021-12-26 21:30:05.977</settingsFile>
+      <sourceFile>2021-12-28 08:22:05.995</sourceFile>
+      <parser>2021-12-26 21:30:06.000</parser>
+      <StyleCop.CSharp.DocumentationRules>2021-12-26 21:30:06.000</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2096444707</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2021-12-26 21:30:06.000</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2021-12-26 21:30:06.000</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2021-12-26 21:30:06.000</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2021-12-26 21:30:06.000</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2021-12-26 21:30:06.000</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2021-12-26 21:30:06.000</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>33</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementDocumentationHeaderMustBePrecededByBlankLine" ruleCheckId="SA1514">
+        <context>A documentation header must be preceded by a blank line or must be the first item in its scope.</context>
+        <line>29</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
+        <context>The documentation text within the exception tag must not be empty.</context>
+        <line>44</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
+        <context>The documentation text within the exception tag must not be empty.</context>
+        <line>70</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>84</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
+        <context>The documentation text within the exception tag must not be empty.</context>
+        <line>97</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
   <project key="1976385128">
     <configuration>
     </configuration>
@@ -404,7 +399,7 @@
     <timestamps>
       <styleCop>2021-12-26 21:30:06.000</styleCop>
       <settingsFile>2021-12-26 21:30:05.977</settingsFile>
-      <sourceFile>2021-12-27 15:14:20.507</sourceFile>
+      <sourceFile>2021-12-28 09:33:11.888</sourceFile>
       <parser>2021-12-26 21:30:06.000</parser>
       <StyleCop.CSharp.DocumentationRules>2021-12-26 21:30:06.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2096444707</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -427,100 +422,122 @@
         <line>56</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="StatementMustNotUseUnnecessaryParenthesis" ruleCheckId="SA1119">
-        <context>The line contains unnecessary parenthesis.</context>
-        <line>60</line>
-        <index>2237</index>
-        <endIndex>2349</endIndex>
-        <startLine>60</startLine>
-        <startColumn>39</startColumn>
-        <endLine>60</endLine>
-        <endColumn>151</endColumn>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
+        <context>The documentation text within the exception tag must not be empty.</context>
+        <line>82</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1008">
+        <context>Invalid spacing around the opening parenthesis.</context>
+        <line>82</line>
+        <index>3158</index>
+        <endIndex>3158</endIndex>
+        <startLine>82</startLine>
+        <startColumn>57</startColumn>
+        <endLine>82</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>82</line>
+        <index>3193</index>
+        <endIndex>3193</endIndex>
+        <startLine>82</startLine>
+        <startColumn>92</startColumn>
+        <endLine>82</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>87</line>
+        <index>3390</index>
+        <endIndex>3390</endIndex>
+        <startLine>87</startLine>
+        <startColumn>35</startColumn>
+        <endLine>87</endLine>
+        <endColumn>35</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>83</line>
+        <line>111</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>112</line>
+        <line>138</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>139</line>
+        <line>180</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>181</line>
+        <line>222</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>223</line>
+        <line>262</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>263</line>
+        <line>286</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>287</line>
+        <line>313</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>314</line>
+        <line>340</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>341</line>
+        <line>369</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>370</line>
+        <line>396</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>397</line>
+        <line>420</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>421</line>
+        <line>446</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>447</line>
+        <line>471</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
         <context>The documentation text within the exception tag must not be empty.</context>
-        <line>472</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustNotBeEmpty" ruleCheckId="SA1627">
-        <context>The documentation text within the exception tag must not be empty.</context>
-        <line>507</line>
+        <line>506</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingGenericBracketsMustBeSpacedCorrectly" ruleCheckId="SA1015">
         <context>Invalid spacing around the closing generic bracket.</context>
-        <line>507</line>
-        <index>18668</index>
-        <endIndex>18668</endIndex>
-        <startLine>507</startLine>
+        <line>506</line>
+        <index>18613</index>
+        <endIndex>18613</endIndex>
+        <startLine>506</startLine>
         <startColumn>37</startColumn>
-        <endLine>507</endLine>
+        <endLine>506</endLine>
         <endColumn>37</endColumn>
         <warning>False</warning>
       </violation>

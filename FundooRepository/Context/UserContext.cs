@@ -47,5 +47,13 @@ namespace FundooRepository.Context
         /// The collaborator.
         /// </value>
         public DbSet<CollaboratorModel> Collaborator { get; set; }
+
+        /// <summary>
+        /// Gets or sets the label.
+        /// </summary>
+        /// <value>
+        /// The label.
+        /// </value>
+        public DbSet<LabelModel> Label{ get; set; }
     }
 }

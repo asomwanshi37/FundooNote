@@ -45,10 +45,14 @@ namespace FundooRepository.Repository
         {
             try
             {
-                await this.userContext.Collaborator.AddAsync(collaborator);
-                await this.userContext.SaveChangesAsync();
-                return collaborator;
+                if (collaborator.NotesModel.RegisterModel.Email != collaborator.ColEmail)
+                {
+                    await this.userContext.Collaborator.AddAsync(collaborator);
+                    await this.userContext.SaveChangesAsync();
+                    return collaborator;
+                }
 
+                return null;
             }
             catch (Exception ex)
             {
