@@ -57,8 +57,7 @@ namespace FundooRepository.Repository
         {
             try
             {
-                bool verifynulldata = (notesModel.Title == null && notesModel.Notes == null && notesModel.Color == null && notesModel.Reminder == null);
-                if (!verifynulldata)
+                if (notesModel.Title != null && notesModel.Notes != null && notesModel.Color != null && notesModel.Reminder != null)
                 {
                     await this.userContext.Notes.AddAsync(notesModel);
                     await this.userContext.SaveChangesAsync();

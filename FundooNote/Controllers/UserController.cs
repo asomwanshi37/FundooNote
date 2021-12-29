@@ -79,7 +79,7 @@ namespace FundooNote.Controllers
             }
             catch (Exception ex)
             {
-                this.logger.LogInformation("Exception occured while using register " + ex.Message);
+                this.logger.LogError("Exception occured while using register " + ex.Message);
                 return this.NotFound(new { Status = false, ex.Message });
             }
         }
@@ -102,7 +102,6 @@ namespace FundooNote.Controllers
                 if (result != null)
                 {
                     this.logger.LogInformation(loginModel.Email + " logged in successfully and the token generated is " + token);
-                    //// HttpContext.Session.SetString("UserEmail", loginModel.Email + " " +loginModel.Password);
                     ConnectionMultiplexer multiplexer = ConnectionMultiplexer.Connect(this.configuration["RedisServer"]);
                     IDatabase database = multiplexer.GetDatabase();
                     int userId = Convert.ToInt32(database.StringGet("userID"));
@@ -113,11 +112,13 @@ namespace FundooNote.Controllers
                 }
                 else
                 {
+                    this.logger.LogInformation("Login Failed");
                     return this.BadRequest(new { Status = false, Message = "Enter Correct Email Details" });
                 }
             }
             catch (Exception ex)
             {
+                this.logger.LogError("Exception occured while using login " + ex.Message);
                 return this.NotFound(new { Status = true, ex.Message });
             }
         }
@@ -149,7 +150,7 @@ namespace FundooNote.Controllers
             }
             catch (Exception ex)
             {
-                this.logger.LogInformation("Exception occured while using reset password " + ex.Message);
+                this.logger.LogError("Exception occured while using reset password " + ex.Message);
                 return this.NotFound(new { Status = false, ex.Message });
             }
         }
@@ -180,7 +181,7 @@ namespace FundooNote.Controllers
             }
             catch (Exception ex)
             {
-                this.logger.LogInformation("Exception occured while using forgot password " + ex.Message);
+                this.logger.LogError("Exception occured while using forgot password " + ex.Message);
                 return this.NotFound(new { Status = false, ex.Message });
             }
         }

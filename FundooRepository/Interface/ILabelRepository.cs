@@ -28,7 +28,7 @@ namespace FundooRepository.Interface
         /// </summary>
         /// <param name="labelModel">The label model.</param>
         /// <returns>return a string after editing label</returns>
-        Task<LabelModel> EditLabel(LabelModel labelModel);
+        Task<LabelModel> EditLabel(LabelModel labelModel, int LabelId);
 
         /// <summary>
         /// Deletes the label.

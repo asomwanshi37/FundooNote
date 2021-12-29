@@ -59,11 +59,11 @@ namespace FundooManager.Manager
         /// <param name="labelModel">The label model.</param>
         /// <returns>returns a string after editing label successful</returns>
         /// <exception cref="System.Exception"></exception>
-        public async Task<LabelModel> EditLabel(LabelModel labelModel)
+        public async Task<LabelModel> EditLabel(LabelModel labelModel, int LabelId)
         {
             try
             {
-                return await this .labelRepository.EditLabel(labelModel);
+                return await this .labelRepository.EditLabel(labelModel,LabelId);
             }
             catch (Exception ex)
             {

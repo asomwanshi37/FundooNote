@@ -201,7 +201,7 @@ namespace FundooRepository.Repository
         }
 
         /// <summary>
-        /// Receieves the MSMQ=>microsoft message queue.
+        /// Receieve the MSMQ=>microsoft message queue.
         /// </summary>
         /// <returns>
         /// Returns true if the message in the queue is sent successfully

@@ -46,12 +46,11 @@ namespace FundooRepository.Repository
         {
             try
             {
-                var exist = await this.userContext.Label.Where(x => x.LabelName == labelModel.LabelName ).SingleOrDefaultAsync();
-                if (exist != null)
+                if (labelModel.NotesModel.Title != labelModel.LabelName)
                 {
                     await this.userContext.Label.AddAsync(labelModel);
                     await this.userContext.SaveChangesAsync();
-                    return exist;
+                    return labelModel;
                 }
 
                 return null;
@@ -68,13 +67,14 @@ namespace FundooRepository.Repository
         /// <param name="labelModel">The label model.</param>
         /// <returns>return a string after editing label</returns>
         /// <exception cref="System.Exception"></exception>
-        public async Task<LabelModel> EditLabel(LabelModel labelModel)
+        public async Task<LabelModel> EditLabel(LabelModel labelModel,int LabelId)
         {
             try
             {
                 var exists = this.userContext.Label.Where(x => x.LabelId == labelModel.LabelId ).SingleOrDefault();
                 if (exists!= null)
                 {
+                    exists.LabelName = labelModel.LabelName;
                     this.userContext.Label.Update(exists);
                     await this.userContext.SaveChangesAsync();
                     return exists;

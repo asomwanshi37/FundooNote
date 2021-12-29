@@ -66,11 +66,11 @@ namespace FundooNote.Controllers
         /// <returns>return IActionResult Status after successful editing label</returns>
         [HttpPut]
         [Route("api/editLabel")]
-        public async Task<IActionResult> EditLabel([FromBody] LabelModel labelModel)
+        public async Task<IActionResult> EditLabel([FromBody] LabelModel labelModel,int LabelId)
         {
             try
             {
-                LabelModel result = await this.labelManager.EditLabel(labelModel);
+                LabelModel result = await this.labelManager.EditLabel(labelModel,LabelId);
                 if (result != null)
                 {
                     return this.Ok(new ResponseModel<LabelModel>() { Status = true, Message = "Label Edit Sucessful",Data = result });
