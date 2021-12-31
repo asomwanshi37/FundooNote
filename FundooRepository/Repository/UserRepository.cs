@@ -158,7 +158,7 @@ namespace FundooRepository.Repository
                     mail.From = new MailAddress(this.configuration["Credentials:Email"]);
                     mail.To.Add(email);
                     this.SendMSMQ();
-                    mail.Body = this.ReceieveMSMQ();
+                    mail.Body = this.ReceiveMSMQ();
 
                     smtpServer.Port = 587;
                     smtpServer.Credentials = new System.Net.NetworkCredential(this.configuration["Credentials:Email"], this.configuration["Credentials:Password"]);
@@ -206,12 +206,12 @@ namespace FundooRepository.Repository
         /// <returns>
         /// Returns true if the message in the queue is sent successfully
         /// </returns>
-        public string ReceieveMSMQ()
+        public string ReceiveMSMQ()
         {
             MessageQueue msgqueue = new MessageQueue(@".\Private$\Fundoo");
-            var receievemsg = msgqueue.Receive();
-            receievemsg.Formatter = new XmlMessageFormatter(new Type[] { typeof(string) });
-            return receievemsg.ToString();
+            var receivemsg = msgqueue.Receive();
+            receivemsg.Formatter = new XmlMessageFormatter(new Type[] { typeof(string) });
+            return receivemsg.ToString();
         }
 
         /// <summary>
