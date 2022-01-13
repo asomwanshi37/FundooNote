@@ -140,7 +140,7 @@ namespace FundooNote.Controllers
                 if (result == true)
                 {
                     this.logger.LogInformation("Password reseted Successfully for " + resetData.Email);
-                    return this.Ok(new ResponseModel<ResetModel> { Status = true, Message = "Password Reset Successfully !" });
+                    return this.Ok(new ResponseModel<ResetModel> { Status = true, Message = "Password Reset Successfully !"});
                 }
                 else
                 {

@@ -43,11 +43,11 @@ namespace FundooNote
             services.AddTransient<ILabelManager, LabelManager>();
             services.AddTransient<ILabelRepository, LabelRepository>();
             
-            services.AddCors(options => options.AddPolicy(name: "CorsPolicyAllHosts", builder =>
+            services.AddCors(options => options.AddPolicy("AllowAllHeaders", builder =>
             {
                 builder.AllowAnyOrigin()
                 .AllowAnyMethod()
-                .AllowAnyOrigin();
+                .AllowAnyHeader();
             }));
 
             services.AddSwaggerGen(c =>
@@ -111,7 +111,7 @@ namespace FundooNote
                 app.UseHsts();
             }
 
-            app.UseCors("CorsPolicyAllHosts");
+            app.UseCors("AllowAllHeaders");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
