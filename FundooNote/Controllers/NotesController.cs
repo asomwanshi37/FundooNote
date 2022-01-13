@@ -41,7 +41,7 @@ namespace FundooNote.Controllers
         /// <param name="notesModel">The notes model.</param>
         /// <returns>returns a IActionResult as status code when data added successful</returns>
         [HttpPost]
-        [Route("api/addNote")]
+        [Route("api/Note")]
         public async Task<IActionResult> AddNotes([FromBody] NotesModel notesModel)
         {
             try
